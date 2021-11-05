@@ -7,8 +7,8 @@ Example
     // Request
     curl -X POST http://localhost:3000/launch_logs -d \
     '{
-       "from": "0x31ebd457b999bf99759602f5ece5aa5033cb56b3",
-       "to": "0x3eb06f432ae8f518a957852aa44776c234b4a84a",
+       "from": "0x803B74766D8f79195D4DaeCF6f2aac31Dba78F25",
+       "to": "0x44607cb7D11b1B345E34b27d319a5721c1A1e3F7",
        "value": "2000000000000000000",
        "data": [],
        "gas_price": "",
@@ -39,7 +39,7 @@ Request Data
 | Parameter     | Description                                  | Required | Type   | Example    |
 | ------------- | -------------------------------------------- | -------- | ------ | ---------- |
 | **from**      | sender of the transaction                    | yes      | string | `0x31ebd457b999bf99759602f5ece5aa5033cb56b3` |
-| **to**        | receiver of the transaction                  | yes      | string | `0x3eb06f432ae8f518a957852aa44776c234b4a84a` |
+| **to**        | receiver of the transaction                  | yes      | string | `0x44607cb7D11b1B345E34b27d319a5721c1A1e3F7` |
 | **value**     | value of the transaction                     | yes      | string | `2000000000000000000` |
 | **data**      | send data of the transaction                 | yes      | string | `[]` |
 | **gas_price** | if empty, sender will set a rational value | no       | string | `13000000000` |
